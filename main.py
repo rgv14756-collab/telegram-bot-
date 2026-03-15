@@ -12,6 +12,6 @@ def say_hi(message):
 def echo_all(message):
     bot.reply_to(message, f"Вы написали: {message.text}")
 
-if name == '__main__':
+if __name__ == '__main__':
     print("Бот пошел в работу...")
     bot.infinity_polling()
